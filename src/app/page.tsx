@@ -25,28 +25,7 @@ export default function Home() {
           <div className="card bg-base-200 shadow-xl mb-5">
             <div className="card-body p-5">
               <div className="card-actions justify-between items-center">
-                {/* <div className="form-control">
-                  <label className="label cursor-pointer">
-                    <input
-                      type="checkbox"
-                      className="checkbox bg-base-100 disabled"
-                      onChange={() => console.log('changed')}
-                      checked={task.completed}
-                    />
-                    <span className={`ml-2 text-md break-all ${task.completed && 'line-through'}`}>{task.description}</span>
-                  </label>
-                </div> */}
-
                 {task.description}
-
-                {/* <div className="flex">
-                  <button className="btn btn-square btn-ghost">
-                    Edit
-                  </button>
-                  <button className="btn btn-square btn-ghost">
-                    Delete
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>)}
