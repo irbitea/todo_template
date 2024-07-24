@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "id": "1797d8bc-45d2-4ddd-aaa7-b38bf252fb3d",
+            "description": "Buy milk",
+            "completed": false
+        },
+        {
+            "id": "f7b19e53-3e44-41f9-97d2-e26fad5fb0e7",
+            "description": "Wash the dishes",
+            "completed": false
+        },
+        {
+            "id": "46a34b10-b9f4-4169-bb9a-03d082e5f6c4",
+            "description": "Do homework",
+            "completed": true
+        }
+    ]
+}
