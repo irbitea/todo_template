@@ -26,6 +26,14 @@ export default function Home() {
             <div className="card-body p-5">
               <div className="card-actions justify-between items-center">
                 {task.description}
+                <div className="flex">
+                  <button className="btn btn-square btn-ghost">
+                    Edit
+                  </button>
+                  <button className="btn btn-square btn-ghost">
+                    Delete
+                  </button>
+                </div>
               </div>
             </div>
           </div>)}
